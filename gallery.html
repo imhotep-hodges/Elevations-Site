@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+    <title>Elevations Beauty Bar | Gallery</title>
+</head>
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-warning text-dark py-2">
+  
+        <img src="https://assets.zyrosite.com//mP4GGjWqNMuwp2zo/Black-logo-no-background-dOqwwLvnWqCg7V7n.png" width="100" height="65" alt="" loading="lazy">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link" href="/index.html">Home</a>
+          <a class="nav-item nav-link" href="/Appointments.html">Appointments</a>
+          <a class="nav-item nav-link" href="/gallery.html">Gallery <span class="sr-only">(current)</span></a>
+    
+        </div>   
+      </div>
+    </nav>
+    <div>
+        <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/127576271_10157363708181174_2041018826643657701_o.jpg?_nc_cat=111&ccb=2&_nc_sid=0debeb&_nc_ohc=w7gTrO3lW5AAX8-WzR7&_nc_ht=scontent-iad3-1.xx&oh=dac589015bf407b1b2c931f14d86f63a&oe=5FE397A9" class="ebbLogo" alt="mainlogo">
+      </div>
+      <div class="w3-container">
+          <div class="galleryCaption1">
+              <p>(Click on the Photos to Enlarge)</p>
+          </div>
+  <!-- The grid: four columns -->
+<div class="row">
+    <div class="column">
+      <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/124022210_188504616165761_411953173114653765_n.jpg?_nc_cat=108&ccb=2&_nc_sid=8bfeb9&_nc_ohc=BO7hHeIV7mcAX-TTtX5&_nc_ht=scontent-iad3-1.xx&oh=6d19cf7da758b732f13b839bfa8a0cc4&oe=5FE389F9" alt="Color" width=300px height=300px onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/120323748_178216843861205_423214009772672127_n.jpg?_nc_cat=106&ccb=2&_nc_sid=8bfeb9&_nc_ohc=c3HjOfgcF_gAX_mmUkU&_nc_ht=scontent-iad3-1.xx&oh=4251b0894ddd51b8c439c26abb142566&oe=5FE5F270" alt="Interlocking" width=300px height=300px onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/120121043_176853810664175_5037023211874200824_n.jpg?_nc_cat=111&ccb=2&_nc_sid=8bfeb9&_nc_ohc=NJwFV6TfqxMAX99VLtQ&_nc_ht=scontent-iad3-1.xx&oh=07c460cc1a09cce973b4bad1382d5833&oe=5FE44CCE" alt="Haircut" width=300px height=300px onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/118807339_171460037870219_4200327512750682910_n.jpg?_nc_cat=107&ccb=2&_nc_sid=8bfeb9&_nc_ohc=3c0PHHYjpKYAX-Ao44d&_nc_ht=scontent-iad3-1.xx&oh=cd21c1eb6368b2921287cc728a6d95df&oe=5FE45129" alt="Consultation" width=300px height=300px onclick="myFunction(this);">
+    </div>
+  </div>
+  
+  <!-- The expanding image container -->
+  <div class="container">
+    <!-- Close the image -->
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  
+    <!-- Expanded image -->
+    <img id="expandedImg" style="width:100%">
+  
+    <!-- Image text -->
+    <div id="imgtext"></div>
+  </div>
+<div class="galleryCaption2">
+    <h2>More to come. Stay Tuned...</h2>
+</div>
+
+</div>
+  <script>
+      function myFunction(imgs) {
+  // Get the expanded image
+  var expandImg = document.getElementById("expandedImg");
+  // Get the image text
+  var imgText = document.getElementById("imgtext");
+  // Use the same src in the expanded image as the image being clicked on from the grid
+  expandImg.src = imgs.src;
+  // Use the value of the alt attribute of the clickable image as text inside the expanded image
+  imgText.innerHTML = imgs.alt;
+  // Show the container element (hidden with CSS)
+  expandImg.parentElement.style.display = "block";
+}
+
+  </script>
+</body>
+</html>
