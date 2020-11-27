@@ -5,7 +5,6 @@ body {
 .nav-item {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
-
 }
 
 .ebbLogo {
@@ -18,11 +17,14 @@ body {
 .column {
     float: right;
     width: 1%;
-    color: white;
+    color: bisque;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 60px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
   }
+  
   
   /* Clear floats after the columns */
   .row:after {
@@ -35,6 +37,8 @@ body {
     height: 25%;
       margin-left: auto;
       margin-right: auto;
+      padding-bottom: 200px;
+      padding-top: 200px;
   }
 
 footer {
@@ -51,21 +55,19 @@ footer {
 .hours {
     text-align: left;
 }
-.custom-select {
-    width: 30%;
-    padding-bottom: 10px;
-    margin-left: 428px;
-    margin-right: auto;
-}
+
 
 form {
     width: 30%;
     color: white;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 30px;
+    padding-top: 50px;
     padding-bottom: 200px;
+    
 }
+
+
 /* The grid: Four equal columns that floats next to each other */
 .column {
     float: left;
