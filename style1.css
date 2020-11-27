@@ -8,23 +8,32 @@ body {
 }
 
 .ebbLogo {
-    margin-left: 35%;
+    margin-left: 30%;
     width: 40%;
     padding-bottom: 60px;
     
 }
 
+.welcome {
+  color: white;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 50px;
+}
+
+
 .column {
-    float: right;
+
     width: 1%;
     color: bisque;
-    margin-left: auto;
+    margin-left: 0px;
     margin-right: auto;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    margin-bottom: 90px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
   }
-  
+
   
   /* Clear floats after the columns */
   .row:after {
@@ -33,12 +42,12 @@ body {
     clear: both;
   }
   .carousel-inner {
-    width: 25%;
-    height: 25%;
+    width: 35%;
+    height: 35%;
       margin-left: auto;
       margin-right: auto;
-      padding-bottom: 200px;
-      padding-top: 200px;
+      padding-bottom: 0px;
+      padding-top: 0px;
   }
 
 footer {
