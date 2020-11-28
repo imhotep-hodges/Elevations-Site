@@ -3,6 +3,8 @@ Author: Larry Hodges
 # Elevations Beauty Bar-WebSite
 Website Project for FAU Quickstart Course
 
+URL: www.elevationsbeautybar.com
+
 Pages: 3 (Home | Appointments | Gallery)
 
 Description: Business website for a hair salon. It promotes Banding, Contact Info, and allows clients to request Appointments. 
