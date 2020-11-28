@@ -13,6 +13,8 @@ Ideas for future improvement:
 
 - Spacing Issues for Mobile Browsers. May be resolved by trying a different framework or different elements. 
 
-- Navbar bug on Mobile Browsers. The rollout menu for the page links doesn't work after it's clicked on once. 
-
 - CSS issues. Page looks different on different browsers. 
+
+- I will remove the Tab Gallery and try a different Gallery layout in order to improve the display for mobile browsers
+
+
