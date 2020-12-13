@@ -36,8 +36,8 @@ padding-bottom: 50px;
 
 
 .borderBox {
-  width: 565px;
-  height: 320px;
+  width: 576px;
+  height: 326px;
   border-style: outset;
   border-color: peachpuff;
   padding-bottom: auto;
@@ -46,9 +46,33 @@ padding-bottom: 50px;
   margin-right: auto;
 }
 
-.iframe {
+@media screen and (max-width: 959px) {
+  .borderBox {
+  width: 460px;
+  height: 260px;
+  border-style: outset;
+  border-color: peachpuff;
+  padding-bottom: auto;
+  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
+  }
+}
+
+iframe {
+  width: 570px; 
+  height: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 959px) {
+  iframe {
+  width: 454px;
+  height: 254px;
+  margin-left: auto;
+  margin-right: auto;
+  }
 }
 
 .rowB:after {
@@ -68,6 +92,31 @@ padding-bottom: 50px;
   margin-right: auto;
 }
 
+@media screen and (max-width: 959px) {
+  .borderBoxC {
+  width: 720px;
+  height: 345px;
+  border-style: outset;
+  border-color: peachpuff;
+  padding-bottom: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 762px) {
+  .borderBoxC {
+  width: 470px;
+  height: 228px;
+  border-style: outset;
+  border-color: peachpuff;
+  padding-bottom: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+}
 
 footer {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -77,26 +126,10 @@ footer {
   margin-bottom: 10px;
   padding-bottom: 25px;
 }
-/*
-.col-1-3 {
-  float: right;
-  width: 20%;
-  margin-top: 2%;
-  margin-left: 8%;
-  margin-right: auto;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-[class*='col-'] {
-  width: 85%;
-  padding-left: 15px;
-  padding-right: 15px;
-}
 
 /* Media Query excludes extra small devices and includes small and above 
 @media (min-width: 48em) {
-  [class*='col-'] {
+  [class*='borderBoxC'] {
       float: left;
   }
   /* Column Third 
