@@ -83,6 +83,12 @@ iframe {
   clear: both;
 }
 
+.slogan h1 {
+  color: bisque;
+  font-family: 'Calligraffitti', cursive;
+  font-size: 36px;
+  
+}
 
 /*
 #borderBoxC {
@@ -159,10 +165,12 @@ footer {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight: bold;
   background-color: silver;
-  margin-top: 50px;
-  margin-bottom: 10px;
-  padding-bottom: 25px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
 }
+
+
 
 /* Media Query excludes extra small devices and includes small and above 
 @media (min-width: 48em) {
@@ -190,6 +198,7 @@ footer {
 .contactInfo {
   color: black;
   text-align: center;
+  margin-top: 10px;
 
   
   }
@@ -198,40 +207,48 @@ footer {
 
   color: black;
   text-align: center;
+  margin-top: 10px;
   
   
   }
-
-  
-
-    /*
-    #socialIcons {
-      margin-top: 2px;
-      margin-left: 44%;
-      margin-right: 28%;
+/*
+  .sociallinks {
+      margin-left: 40%;
+      margin-right: 10%;
   }
+*/
+  .sociallinks a {
+    font-size: 30px;
+  }
+
+    
 
     .fa {
-      padding: 5px;
-      font-size: 30px;
-      width: 25px;
+      padding: 1px;
+      font-size: 36px;
+      width: 20px;
       text-align: center;
       text-decoration: none;
+      margin-top: 10px;
+      
    
-    } */
+    } 
 
     .fa:hover {  
       opacity: 0.7;
+      color: gray;
     }
 
     .fa-facebook {  
-      background: #3B5998;  
-      color: white;
+      
+      color: #090a0a;
+      
     }
 
     .fa-instagram {  
-      background: #3B5998;  
-      color: white;
+      
+      color: #090a0a;
+      
     }
 
 
@@ -240,25 +257,22 @@ footer {
 
 /* Appointments section */
 
-.appointmentwelcome {
+.appointmentwelcome h1 {
 color: bisque;
 text-align: center;
+font-family: 'Calligraffitti', cursive;
+font-size: 36px;
 }
 
-form {
-  width: 30%;
-  color: white;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 50px;
-  padding-bottom: 200px;
+.submitbutton {
+  margin-left: 12.5%;
   
 }
-
 /* Gallery Section */
 
 .galleryhl {
   font-family: 'Calligraffitti', cursive;
+  font-size: 36px;
   color: bisque;
   text-align: center;
   margin-bottom: 30px;
@@ -267,7 +281,7 @@ form {
 .galleryfl {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: bisque;
-  font-size: 20px;
+  font-size: 26px;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 30px;
