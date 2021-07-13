@@ -20,10 +20,18 @@
   
     
     <title>Elevations Beauty Bar | Appointments</title>
+    <meta name="keywords" content="stylist, hair, salon, color, wella, merle norman, nvs, cut, dreads, braids, balayage, bob, olaplex, gloss, baltimore, frederick, hagerstown, Montgomery, PG County, MD, fairgrounds, 21740, evelyn, black, african, facebook, twitter, instagram, media, photos, design"/>
+  <meta name="description" content="Business website for Elevations Beauty Bar | Salon in Hagerstown, Maryland"/>
+
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:title" content="Elevations Beauty Bar | Your Next Level Is Calling"/>
+  <meta name="twitter:description" content="Elevations Beauty Bar Salon, Hagerstown, Maryland"/>
+  <meta property="og:description" content="Elevations Beauty Bar Salon, Hagerstown, Maryland"/>
+  <meta property="og:title" content="Elevations Beauty Bar | Your Next Level Is Calling"/>
 </head>
 <body>
   <!--Navagation Bar-->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-warning text-dark py-2">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-warning py-2">
   
       <a class="navbar-brand" href="http://elevationsbeautybar.com">
         <img src="artwork/e-logos/Logo Files/For Web/png/Black logo - no background.png" width="100" height="65" alt="" loading="lazy">
@@ -33,9 +41,9 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link" href="http://elevationsbeautybar.com">Home</a>            
-            <a class="nav-item nav-link" href="http://elevationsbeautybar.com/gallery.html">Gallery</a>
-            <a class="nav-item nav-link" href="http://elevationsbeautybar.com/appointments.html">Appointments <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="http://elevationsbeautybar.com" style="color: black;">Home</a>            
+            <a class="nav-item nav-link" href="http://elevationsbeautybar.com/gallery.html" style="color: black;">Gallery</a>
+            <a class="nav-item nav-link" href="http://elevationsbeautybar.com/appointments.html" style="color: black;">Appointments <span class="sr-only">(current)</span></a>
     
         </div>   
       </div>
@@ -52,14 +60,28 @@
   <!--Instruction Text-->
   <div class="appointmentwelcome">
     <h1>Request your appointment today!</h1>
+
+    <div class="row">
+      <div class="col text-center py-4">
+        <h4>Click below to Book your appointment now</h4>
+        <a href="https://square.site/book/654F36GCAZEJX/elevations-beauty-bar-llc-hagerstown-md" target="_blank">
+        <button class="btn btn-warning my-2 py-3" id="bookNow" style="font-weight: bold;">Book Now</button></a>
+      </div>
+    </div>
+    
+
+
+    
   </div>
   
-
+<div class="appointmentform py-4">
   <div class="row">
     <div class="col-sm-12">
       
     </div>
     <div class="col-sm-12">
+
+      <h4 class="text-center">If you would like to inquire about our services, complete and submit the Form below</h4>
       <!--Form begins-->
       
       <form action="https://formspree.io/f/xeqplgvr" method="POST">
@@ -67,12 +89,21 @@
         <div class="selectList w-75 mx-auto py-2">
             <select class="custom-select" name="department">
                 <option selected>Select a service</option>
-                <option value="1">Haircut</option>
-                <option value="2">Hair Braiding</option>
-                <option value="3">Color/Highlights</option>
-                <option value="4">Consultation</option>
+                <option value="Haircut">Haircut</option>
+                <option value="Hair Braiding">Hair Braiding</option>
+                <option value="Color-Highlights">Color/Highlights</option>
+                <option value="Lashes">Eye-Lashes</option>
+                <option value="Consultation">Consultation</option>
               </select>
         </div>
+        <div class="selectList w-75 mx-auto py-2">
+          <select class="custom-select" name="timely">
+              <option selected>How do you prefer we respond to you?</option>
+              <option value="Email">Email</option>
+              <option value="Phone">Phone Call</option>
+        
+            </select>
+      </div>
       
       
         <div class="form-group w-75 mx-auto">
@@ -94,6 +125,8 @@
         <div class="form-group w-75 mx-auto">
           <label for="validationDefault05">Message</label>
           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message" placeholder="Message" id="validationDefault05" value="Mark" required></textarea>
+          
+       
         </div>
         <div class="submitbutton">
             <button type="submit" class="btn btn-warning" value="Send">Submit</button>
@@ -105,7 +138,7 @@
       
     </div>
   </div>
-
+</div>
 
 
   

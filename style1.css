@@ -16,6 +16,12 @@ body {
 
 .nav-item {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  font-size: 16px;
+  
+}
+.nav-item:hover {
+  text-decoration: underline;
   
 }
 
@@ -197,4 +203,19 @@ label {
 
 #contactlk {
   text-decoration: underline;
+}
+
+.appointmentwelcome h4 {
+  color: bisque;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.appointmentwelcome .btn {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.appointmentform h4 {
+  color: bisque;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
