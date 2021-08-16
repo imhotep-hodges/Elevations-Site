@@ -1,3 +1,4 @@
+@import 'normalize.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Pacifico&display=swap');
 
@@ -15,12 +16,6 @@ body {
 
 .nav-item {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: black;
-  font-size: 16px;
-  
-}
-.nav-item:hover {
-  text-decoration: underline;
   
 }
 
@@ -202,20 +197,18 @@ label {
 
 #contactlk {
   text-decoration: underline;
-  color: bisque;
 }
 
-.appointmentwelcome h4 {
-  color: bisque;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+/* About Section */
+
+#bio {
+  color: black;
 }
 
-.appointmentwelcome .btn {
-  padding-left: 30px;
-  padding-right: 30px;
+#mission {
+  color: black;
 }
 
-.appointmentform h4 {
-  color: bisque;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+#philo {
+  color: black;
 }
