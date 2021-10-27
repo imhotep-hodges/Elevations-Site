@@ -10,6 +10,7 @@ html {
 
 body {
   background-color: #e3f5ec;
+
 }
 
 .navbar {
@@ -30,8 +31,19 @@ body {
   font-size: 1.2rem;
 }
 
+.nav-item:hover {
+  text-decoration: underline;
+  font-size: 1.3rem;
+}
+
 #bookNav {
   font-size: 0.8rem;
+  background-color: black;
+  color: white;
+}
+
+#bookNav:hover {
+  background-color: #464a47;
 }
 
 /* Home Page Elements */
@@ -139,30 +151,9 @@ footer {
 
 
 
-<<<<<<< HEAD
-=======
-#bookNow {
-  padding: 40px;
-  -webkit-box-shadow: 2px 2px 2px #030303;
-          box-shadow: 2px 2px 2px #f0c654;
-  margin-bottom: auto;
-}
-
-.submitbutton {
-  margin-left: 12.5%;
-  
-}
->>>>>>> 48baa46bc1afc08ac8657ac66df74d059c786a0f
 
 /* Gallery Section */
 
-.galleryhl {
-  font-family: 'Calligraffitti', cursive;
-  font-size: 36px;
-  color: bisque;
-  text-align: center;
-  margin-bottom: 30px;
-}
 
 .galleryfl {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -189,11 +180,8 @@ footer {
 
 #philo {
   color: black;
-<<<<<<< HEAD
 }
 
 #aboutjumbo {
   background-color: #e3f5ec;
-=======
->>>>>>> 48baa46bc1afc08ac8657ac66df74d059c786a0f
 }

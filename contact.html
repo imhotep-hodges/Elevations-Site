@@ -5,8 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <!--My Stylesheet--> 
     <link rel="stylesheet" href="style1.css">
@@ -39,6 +38,17 @@ fairgrounds, 21740, near 21740, evelyn, black, african, facebook, twitter, insta
   <meta name="twitter:description" content="Elevations Beauty Bar Salon, Hagerstown, Maryland"/>
   <meta property="og:description" content="Elevations Beauty Bar Salon, Hagerstown, Maryland"/>
   <meta property="og:title" content="Elevations Beauty Bar | Your Next Level Is Calling"/>
+
+  <!-- Navbar Code -->
+ <script>
+        $('.navbar-collapse a').click(function(){
+            $(".navbar-collapse").collapse('hide');
+        });
+  </script>
+
+<!-- Facebook Widget -->
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0" nonce="raNAiTGk"></script>
   </head>
   <body>
     <!--Navagation Bar-->
@@ -90,7 +100,7 @@ fairgrounds, 21740, near 21740, evelyn, black, african, facebook, twitter, insta
         <h2 class="text-center" style="font-family: 'Kaushan Script', cursive;">Come Visit Us!</h2>
         <br>
         <div class="text-center">
-          <img src="/artwork/ebb_map (1).png" alt="map-location" class="img-fluid" height="600px" width="600px" ><br>
+          <img src="/artwork/ebb_map (1).png" alt="map-location" class="img-fluid" height="600px" width="600px" style="border: 3px solid black;"><br>
             <p class="address2 py-2">
             <b>Business Address</b> <br>
             146 Fairground Avenue<br>
@@ -195,21 +205,15 @@ fairgrounds, 21740, near 21740, evelyn, black, african, facebook, twitter, insta
     </div>
   </div>
 </footer>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  
+
+
 </body>
 
-<!-- Navbar Code -->
- <script>
-        $('.navbar-collapse a').click(function(){
-            $(".navbar-collapse").collapse('hide');
-        });
-  </script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-   
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-   
-<!-- Facebook Widget -->
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0" nonce="raNAiTGk"></script>
 </html>
